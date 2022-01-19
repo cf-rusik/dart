@@ -2,7 +2,7 @@ void main(){
   Character person = Character('Анифа', "мужской", 18, 88);
   person.info();
 
-  Character maga = Character.magomed('man', 20, 80);
+  Character maga = Character.maGoMed('man', 20, 80);
   maga.info();
 }
 
