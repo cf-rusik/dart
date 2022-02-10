@@ -35,6 +35,4 @@ class BankCard{
   String toString() {
         return '$owner, $account, $_balance';
   }
-
-
 }
