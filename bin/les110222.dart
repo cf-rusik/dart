@@ -6,7 +6,7 @@ void main() {
 // first: возвращает первый элемент
   print(numbers.first);
 
-// last: возвращает последний элемент
+// last: возвращает последний элемент○
   print(numbers.last);
 
 // length: возвращает длину списка
