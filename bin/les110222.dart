@@ -79,4 +79,22 @@ void main() {
   print(numbers.where((element) => element.isEven));
   print(numbers.where((element) => element.isEven).toList());
   print(numbers);
+
+  // ссылочный тип данных!
+// // List<into> another Nums = numbers;
+  List<int> anotherNums = [...numbers];
+  anotherNums.removeAt(3);
+  print(anotherNums);
+  for (int i = 0; i < anotherNums.length; i += 2) {
+    print('i = $i');
+    print(anotherNums[i]);
+  }
+
+  for (int element in anotherNums) {
+    print(element >= 5);
+  }
+  print('');
+  print('forEach');
+  anotherNums.forEach((element) => print(element.isOdd));
+  anotherNums.forEach(print);
 }
