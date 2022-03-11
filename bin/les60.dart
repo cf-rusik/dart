@@ -130,9 +130,6 @@ class VideoPlayer extends Player with Social implements IFile {
   }
 }
 
-class Test extends AudioPlayer{
-  Test(int timeline, int currentTime) : super(timeline, currentTime);
-}
 
 void main(){
   AudioPlayer Track1 = AudioPlayer(10, 3);
